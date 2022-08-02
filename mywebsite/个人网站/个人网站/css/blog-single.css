@@ -1,0 +1,289 @@
+/* 顶部的背景图 */
+.background1 {
+    background: url(../images/blog-single/bg1@2x.png) center;
+    background-size: cover;
+    width: 100%;
+    height: 5.93rem;
+}
+
+/*------------------------------------------------------------ ------
+# 文章主体
+ -------------------------------------------------------------------*/
+/* 文章标题部分 */
+.title-time {
+    width: 12rem;
+    height: 0.92rem;
+    background: #010E1E;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.41rem auto;
+}
+
+/* 标题 */
+.title-time .title {
+    width: 8rem;
+    font-size: 0.28rem;
+    line-height: 0.29rem;
+    color: #4594FF;
+    margin-left: 0.35rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 时间 */
+.title-time .time {
+    margin-right: 0.35rem;
+    font-size: 0.16rem;
+    line-height: 0.29rem;
+}
+
+/* 文章 */
+.content {
+    width: 12rem;
+    color: #fff;
+    margin: 0.38rem auto;
+}
+
+/* 插图 */
+.background2-box {
+    display: flex;
+    justify-content: center;
+}
+
+.background2 {
+    margin: 0.39rem auto;
+}
+
+/* # content-foot */
+.content-foot {
+    width: 12rem;
+    height: 0.92rem;
+    background: #010E1E;
+    color: #fff;
+    display: flex;
+    margin-bottom: 0.35rem;
+    margin-left: 3.6rem;
+}
+
+/* content-foot-left */
+.content-foot-left {
+    display: flex;
+}
+
+.content-foot-left h4 {
+    width: 0.28rem;
+    height: 0.14rem;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.92rem;
+    margin-left: 0.36rem;
+    margin-right: 0.31rem;
+}
+
+.content-foot div ul {
+    display: flex;
+    margin-top: 0.26rem;
+
+}
+
+.content-foot-left ul li {
+    width: 1.08rem;
+    height: 0.4rem;
+    border-radius: 0.08rem;
+    text-align: center;
+    line-height: 0.4rem;
+    margin-right: 0.12rem;
+    cursor: pointer;
+}
+
+#Travel {
+    background: #7ECEF4;
+}
+
+#December {
+    background: #EB6877;
+}
+
+#Adventure {
+    background: #89C997;
+}
+
+#Fun {
+    background: #F39800;
+}
+
+/* content-foot-right */
+.content-foot-right {
+    display: flex;
+}
+
+.content-foot-right h4 {
+    width: 0.52rem;
+    height: 0.14rem;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.92rem;
+    margin-left: 2.72rem;
+    margin-right: 0.36rem;
+}
+
+.content-foot-right img {
+    width: 0.4rem;
+    margin-right: 0.23rem;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------ ------
+# comments 评论
+ -------------------------------------------------------------------*/
+
+.comments {
+    width: 100%;
+    /* height: 2000px; */
+    background: #010E1E;
+    margin-top: 0.35rem;
+    /* margin-bottom: 0.89rem; */
+}
+
+.null {
+    height: 0.88rem;
+}
+
+/* comments-box 评论容器 */
+#comments {
+    width: 12rem;
+    height: 2.44rem;
+    background: #151F2B;
+    margin-left: 3.6rem;
+    margin-bottom: 0.38rem;
+}
+
+.nickName-time {
+    display: flex;
+    justify-content: space-between;
+    width: 9.62rem;
+    margin-left: 1.19rem;
+}
+
+.nickName-time .nickName {
+    height: 0.16rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 0.29rem;
+    margin-top: 0.6rem;
+}
+
+.nickName-time .time {
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.29rem;
+    margin-top: 0.6rem;
+}
+
+.comment-text {
+    margin-top: 0.52rem;
+    margin-left: 1.19rem;
+    width: 9.62rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.28rem;
+}
+
+/* check 按钮 */
+.comments .check {
+    width: 1.23rem;
+    height: 0.44rem;
+    background: #32B16C;
+    color: #fff;
+    border-radius: 0.1rem;
+    margin-top: 0.02rem;
+    margin-left: 8.95rem;
+    cursor: pointer;
+}
+
+/* input-comment 发表评论 */
+.comment {
+    width: 12rem;
+    height: 5.6rem;
+    background: #151F2B;
+    margin: 0.39rem auto;
+    margin-bottom: 0;
+    position: relative;
+}
+.comment div input {
+    color: #fff;
+}
+.comment h4 {
+    position: absolute;
+    left: 0.15rem;
+    top: 0.38rem;
+    width: 0.38rem;
+    height: 0.19rem;
+    font-size: 0.19rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0.29rem;
+}
+
+.comment button {
+    position: absolute;
+    right: 0.78rem;
+    bottom: 0.4rem;
+    width: 1.23rem;
+    height: 0.44rem;
+    background: #00A0E9;
+    color: #fff;
+    border-radius: 0.11rem;
+    cursor: pointer;
+}
+
+.input-nickName-email {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comment input {
+    background: #010E1E;
+    text-indent: 0.33rem;
+    border-style: none;
+}
+
+.input-nickName-email input {
+    width: 5.57rem;
+    height: 0.6rem;
+    font-size: 0.16rem;
+    font-weight: 400;
+    line-height: 0.29rem;
+    margin-top: 0.96rem;
+}
+
+.input-comment input {
+    width: 11.46rem;
+    height: 2.42rem;
+    margin-top: 0.38rem;
+    margin-left: 0.27rem;
+}
+
+.comment input::-webkit-input-placeholder {
+    color: #BFBFBF;
+}
+
+.comment .input-comment input::-webkit-input-placeholder {
+    position: relative;
+    top: -0.9rem;
+}
+

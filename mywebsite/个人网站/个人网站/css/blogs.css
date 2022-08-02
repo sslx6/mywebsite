@@ -1,0 +1,190 @@
+/*--------------------------------------------------------------
+# 粒子特效区域
+--------------------------------------------------------------*/
+#search {
+  position: relative;
+  height: 5.93rem;
+}
+
+#particles-js {
+  height: 5.93rem;
+  background: #010e1e;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#search .search-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-wrap {
+  margin-top: 1.02rem;
+}
+
+#search input {
+  width: 10.2rem;
+  height: 0.91rem;
+  background: #ffffff;
+  border-radius: 0.1rem 0rem 0rem 0.1rem;
+  border: none;
+  outline: none;
+  text-indent: 0.73rem;
+  box-sizing: border-box;
+}
+
+#search input:focus {
+  border: #e46a2b 2px solid;
+}
+
+#search button {
+  width: 1.76rem;
+  height: 0.91rem;
+  background: #fe6913;
+  border-radius: 0rem 0.1rem 0.1rem 0rem;
+  border: none;
+  cursor: pointer;
+}
+
+#search button:hover {
+  background: #ca4e05;
+}
+
+#search button i {
+  color: #fff;
+  font-size: 0.51rem;
+}
+
+/*--------------------------------------------------------------
+  # 博客列表
+  --------------------------------------------------------------*/
+
+#blog {
+  color: #fff;
+}
+
+.page {
+  margin-top: 1.22rem;
+}
+
+#blog .article-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0.73rem;
+}
+
+#blog article {
+  width: 380px;
+  margin-bottom: 0.8rem;
+  border-radius: 0.1rem;
+  background: #0e1a26;
+  overflow: hidden;
+  transition: 0.3s;
+  /* margin-right: 30px; */
+}
+
+#blog article img {
+  width: 100%;
+}
+
+#blog .content-wrap {
+  padding: 0.26rem;
+}
+
+#blog h3 {
+  font-size: 0.18rem;
+  font-weight: 500;
+  margin-top: 0.3rem;
+  margin-bottom: 0.23rem;
+}
+
+#blog p {
+  font-size: 0.16rem;
+  margin-bottom: 0.3rem;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2F;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+#blog .date {
+  font-size: 0.14rem;
+}
+
+#blog .date i {
+  font-size: 0.18rem;
+  margin-right: 0.15rem;
+}
+
+#blog .more {
+  border-radius: 0.03rem;
+  font-size: 0.12rem;
+  font-weight: 500;
+  padding: 0.11rem 0.07rem;
+  transition: 0.3s;
+  color: #fff;
+  border: 1px solid #e46a2b;
+}
+
+#blog .more i {
+  margin-left: 0.06rem;
+  font-size: 0.13rem;
+}
+
+#blog article:hover {
+  background: #fff;
+  transform: translateY(-0.24rem);
+}
+
+#blog article:hover .content-wrap {
+  background: #fff;
+  color: #000;
+}
+
+#blog article:hover .more {
+  background: #e46a2b;
+}
+
+/*---------------------------------------------------------------------- -
+  # page-turning 翻页部分
+   ------------------------------------------------------------------------*/
+.page-turning {
+  width: 19.2rem;
+  margin-bottom: 0.95rem;
+}
+
+.page-turning ul {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 0.35rem;
+  margin-left: 6.85rem;
+}
+
+.page-turning ul li {
+  text-align: center;
+  line-height: 0.54rem;
+  margin-right: 0.7rem;
+}
+
+.page-turning ul #li3 {
+  width: 0.54rem;
+  height: 0.54rem;
+  background: #4192F3;
+  border-radius: 0.06rem;
+}
+
+/*------------------------------------------------------------------
+# footer
+------------------------------------------------------------------ */
+footer {
+  background: #010E1E;
+}
+
+/*--------------------------------------------------------------
+  # css reset, 样式重置
+  --------------------------------------------------------------*/
