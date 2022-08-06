@@ -1,0 +1,135 @@
+/* ---------------------------------------------------------------------------
+# main 
+ --------------------------------------------------------------------------*/
+main {
+    background: #010E1E;
+}
+
+.background {
+    margin-top: 0.99rem;
+    margin-bottom: 0.58rem;
+}
+
+.background img {
+    width: 19.19rem;
+}
+
+button {
+    width: 1.23rem;
+    height: 0.44rem;
+    background: #00A0E9;
+    border-radius: 0.1rem;
+    color: #fff;
+    margin-left: 8.99rem;
+    margin-top: 0.36rem;
+}
+
+/* ---------------------------------------------------------------------------
+# contact-way 联系方式
+ --------------------------------------------------------------------------*/
+.contact-way {
+    width: 12rem;
+    height: 1.5rem;
+    background: #151F2B;
+    margin-left: 3.6rem;
+    margin-bottom: 0.61rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-way section {
+    display: flex;
+}
+
+.address {
+    margin-left: 0.44rem;
+}
+
+.call {
+    margin-right: 0.44rem;
+}
+
+.contact-font {
+    width: 0.54rem;
+    height: 0.54rem;
+    background: #E5004F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-font img {
+    width: 0.25rem;
+}
+
+.contact-text {
+    color: #fff;
+}
+
+.contact-text h3 {
+    width: 0.47rem;
+    height: 0.15rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 0.15rem;
+    margin-left: 0.24rem;
+    margin-bottom: 0.14rem;
+}
+
+.contact-text h4 {
+    width: 2.55rem;
+    height: 0.17rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.15rem;
+    margin-left: 0.24rem;
+}
+
+/* -------------------------------------------------------------------------
+# contact-input 
+---------------------------------------------------------------------------*/
+.contact-input {
+    margin-left: 3.6rem;
+}
+
+.contact-input section input {
+    border-style: none;
+    background: #151F2B;
+    margin-bottom: 0.29rem;
+    text-indent: 0.43rem;
+}
+
+.contact-input section input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.user {
+    display: flex;
+}
+
+.user input {
+    width: 5.8rem;
+    height: 0.76rem;
+    margin-right: 0.4rem;
+}
+
+.subject input {
+    width: 12rem;
+    height: 0.76rem;
+}
+
+.content input {
+    width: 12rem;
+    height: 2.12rem;
+}
+
+.content input::-webkit-input-placeholder {
+    position: relative;
+    top: -0.7rem;
+}

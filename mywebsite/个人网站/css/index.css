@@ -1,0 +1,157 @@
+/*--------------------------------------------------------------
+# hero
+--------------------------------------------------------------*/
+#hero {
+  background: url(../images/hero-bg.png) center;
+  background-size: cover;
+  height: 8.93rem;
+  color: #ffffff;
+}
+
+#hero .portrait {
+  width: 1.39rem;
+  margin-top: 1.99rem;
+  margin-left: 3.86rem;
+}
+
+#hero .slogan {
+  font-size: 0.5rem;
+  font-weight: 800;
+  margin-top: 0.58rem;
+  margin-left: 3.82rem;
+}
+
+#hero .slogan span {
+  color: #f3b942;
+}
+
+#hero .about-me {
+  display: block;
+  font-size: 0.3rem;
+  text-align: center;
+  width: 1.89rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  background: rgba(65, 146, 243, 1);
+  border-radius: 0.25rem 0.25rem 0.25rem 0rem;
+  margin-top: 0.61rem;
+  margin-left: 3.88rem;
+  transition: 0.3s;
+}
+
+#hero .about-me:hover {
+  background: rgba(65, 146, 243, 0.7);
+}
+
+/*--------------------------------------------------------------
+# portfolio
+--------------------------------------------------------------*/
+#portfolio .carousel {
+  overflow: hidden;
+  margin-top: 0.12rem;
+  position: relative;
+  height: 590px;
+}
+
+#portfolio .arrows {
+  text-align: right;
+  user-select: none;
+}
+
+#portfolio .arrows span {
+  display: inline-block;
+  width: 0.18rem;
+  height: 0.19rem;
+  background-size: contain;
+  margin-bottom: 0.42rem;
+  cursor: pointer;
+}
+
+#portfolio .arrows span.prev {
+  margin-right: 0.32rem;
+  background-image: url(../images/arrow-prev-valid@2x.png);
+}
+
+#portfolio .arrows span.prev.invalid {
+  margin-right: 0.32rem;
+  background-image: url(../images/arrow-prev-invalid@2x.png);
+}
+
+#portfolio .arrows span.next {
+  background-image: url(../images/arrow-next-valid@2x.png);
+}
+
+#portfolio .arrows span.next.invalid {
+  background-image: url(../images/arrow-next-invalid@2x.png);
+}
+
+#portfolio .imgs {
+  position: absolute;
+  left: 0;
+  transition: 0.8s;
+}
+
+#portfolio .imgs-wrap {
+  margin-right: 30px;
+  width: 380px;
+  position: relative;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#portfolio .imgs img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+#portfolio .imgs-info {
+  background: rgba(34, 34, 34, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-indent: 30px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+#portfolio .imgs-wrap:hover .imgs-info {
+  opacity: 1;
+}
+
+#portfolio .imgs-wrap:hover img {
+  transform: scale(1.2);
+}
+
+#portfolio .imgs-info .imgs-links {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#portfolio .imgs-info i {
+  font-size: 30px;
+}
+
+#portfolio .imgs-info .imgs-links a:hover {
+  color: #ec6941;
+}
+
+/*--------------------------------------------------------------
+# blog
+--------------------------------------------------------------*/
+
+#blog {
+  background: #010e1e;
+}
+
+#blog .more-box {
+  margin: 0 auto;
+}
